@@ -2,7 +2,7 @@
 {% set posix = 'm2-' if win else '' %}
 
 package:
-  name: r-climate4R
+  name: r-climate4r
   version: {{ version|replace("-", "_") }}
 
 source:
